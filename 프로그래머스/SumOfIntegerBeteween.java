@@ -1,0 +1,29 @@
+public class SumOfIntegerBeteween {
+    public static void main(String[] args) {
+        Solution1 sol = new Solution1();
+        sol.solution(4,6);
+    }
+}
+
+class Solution1 {
+    public long solution(int a, int b) {
+        long answer = 0;
+        int min, max;
+
+        if(a < b) {
+            min = a;
+            max = b;
+        } else {
+            min = b;
+            max = a;
+        }
+
+        for(int i = min; i <= max; i++) {
+            answer += i;
+        }
+
+
+
+        return answer;
+    }
+}
