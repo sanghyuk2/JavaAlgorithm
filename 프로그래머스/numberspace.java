@@ -1,3 +1,4 @@
+//x만큼 간격이 있는 n개의 숫자
 public class numberspace {
     public static void main(String[] args) {
         Solution sol = new Solution();
