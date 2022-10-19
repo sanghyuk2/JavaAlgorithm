@@ -1,3 +1,7 @@
+/*
+다음의 숫자들을 오름차순으로 정렬하는 프로그램을 작성하세요
+1 10 5 8 7 6 4 3 2 9
+ */
 public class SelectionSort {
     public static void main(String[] args) {
         int min, temp, index = 0;
@@ -37,4 +41,6 @@ public class SelectionSort {
 10 + 9 + 8 + ... + 1 = 55
 즉, 수행시간은 등차수열과 동일하게 'n * (n+1) / 2' 이나, n의 값이 어마어마하게 크다면 사실 '+ 1'이나 '/2' 와 같은 공식은 없는 것과 마찬가지이다.
 따라서 수행시간은 N * N => Big O 표기법으로 인하여 O(N^2) 이다.
+O(N^2)은 알고리즘 중에서 시간이 가장 많이 걸린다는 특징이 있다.
+선택정렬은 다른 정렬에 비하여 좋지 않다.
 */
