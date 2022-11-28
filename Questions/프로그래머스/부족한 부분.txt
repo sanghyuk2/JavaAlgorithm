@@ -1,2 +1,4 @@
 substring 
 split
+join
+일급컬렉션
